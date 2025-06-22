@@ -1,0 +1,95 @@
+
+#name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: left;
+  color: #0f1111; /* Amazon's product title color */
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  max-width: 400px; /* optional max limit */
+}
+.container{
+    display: flex;
+    height: 100vh;
+    padding: 20px;
+}
+.left {
+  flex: 1;
+  padding: 20px;
+}
+.rating{
+    font-family: sans-serif;
+}
+.right {
+  flex: 1;
+  padding: 20px;
+  
+  
+}
+.people-bought{
+    font-size: smaller;
+    padding: 5px;
+    font-weight: bold;
+}
+.price {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  color: #000;
+  padding:5px;
+}
+
+.symbol {
+  font-size: 18px;
+  vertical-align: top;
+  margin-right: 2px;
+}
+
+.money {
+  font-size: 36px;
+}
+
+.cents {
+  font-size: 16px;
+  vertical-align: super;
+  margin-left: 2px;
+}
+.deliveryfee{
+    padding: 5px;
+    color: #000;
+    font-family: Arial, sans-serif;
+  
+
+
+}
+.ships{
+    font-size: medium;
+    padding:5px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button{
+  background-color: #ffd814;         /* Amazon yellow */
+  color: #111;                        /* Near black text */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 999px;              /* Fully rounded */
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #f7ca00;
+}
+.rating-count{
+    color: blue;
+}
