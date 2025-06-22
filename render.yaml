@@ -1,1 +1,6 @@
-
+services:
+  - type: web
+    name: hacweektask1
+    env: static
+    staticPublishPath: public
+    buildCommand: ""
